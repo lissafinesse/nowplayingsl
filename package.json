@@ -1,7 +1,6 @@
 {
   "name": "lastfm-converter",
   "version": "1.0.0",
-  "description": "Simple converter to output Last.fm now playing info for Second Life",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
