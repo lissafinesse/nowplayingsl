@@ -29,4 +29,4 @@ app.get("/nowplaying", async (req, res) => {
 
 app.get("/", (req, res) => res.send("Your Last.fm converter is running!"));
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
